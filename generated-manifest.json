@@ -1,0 +1,12 @@
+{
+  "files": {
+    "config.json": "d78103d3dd6bc89c42a29c0941da8ff112e523e0088ca268deff089102c66c56",
+    "generated-manifest.json": "170133c0c1402875cec81bfd3782dec446af66c94d46aba7c9fb9671e74edc65",
+    "index.js": "1f875df6ff36f573d7165cdab2ce91beede5a0fe7fcc59b1184e942837e998a5",
+    "LICENSE": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+    "manifest.json": "a66059e29953c132519557745bfa6879c016d59c3a29d57b896710436330a449",
+    "module.json": "2195677bba0b6d2fee871bba3dd203633e0ea55dd88d89b70bbfb414d44391d5",
+    "Newtonsoft.Json.dll": "564e6201dbf6354460d9ca180f0752d50dd7496fff49e05f67a9af42a2e772c7",
+    "README.md": "5213bb46b667eab7b54f6d5eafcb5dba7a6dac1ee41651ace8446377bea57aab"
+  }
+}

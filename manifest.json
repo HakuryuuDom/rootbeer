@@ -1,17 +1,23 @@
 {
-  "files": {
-    "config.json": {"overwrite": false, "hash": "d78103d3dd6bc89c42a29c0941da8ff112e523e0088ca268deff089102c66c56"},
-    "index.js": "1f875df6ff36f573d7165cdab2ce91beede5a0fe7fcc59b1184e942837e998a5",
-    "module.json": "2195677bba0b6d2fee871bba3dd203633e0ea55dd88d89b70bbfb414d44391d5"
-  },
-  "defs": {
-    "S_SPAWN_ME": 3,
-    "C_PLAYER_LOCATION": 5,
-    "C_USE_ITEM": 3,
-    "S_INVEN": 14,
-    "S_SYSTEM_MESSAGE_LOOT_ITEM": 1,
-    "C_RETURN_TO_LOBBY": "raw",
-    "C_DEL_ITEM": 2,
-    "C_MERGE_ITEM": 1
-  }
+	"files": {
+		"LICENSE": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b",
+		"README.md": "883b13a566c3ac3126b1d98d0a7f0fe394319d8f684f364b5c23a4835a34b7d0",
+		"config.json": {
+			"overwrite": false,
+			"hash": "d78103d3dd6bc89c42a29c0941da8ff112e523e0088ca268deff089102c66c56"
+		},
+		"generated-manifest.json": "f9ac01dfb4a5ad2b9449076498d7afba5837a957aa0c3a7579caac927adc9743",
+		"index.js": "8c61ebfadb56a1892a2dbb7a6c8763e55b321105e2a83f0baac01ba54a5fcb7a",
+		"module.json": "5542561d9f021bf0d1d4d23f3ebdf9b80f3cb0e8a3e7263cc473f60af60c43d9"
+	},
+	"defs": {
+		"C_DEL_ITEM": 2,
+		"C_MERGE_ITEM": 1,
+		"C_PLAYER_LOCATION": 5,
+		"C_RETURN_TO_LOBBY": "raw",
+		"C_USE_ITEM": 3,
+		"S_INVEN": 14,
+		"S_SPAWN_ME": 3,
+		"S_SYSTEM_MESSAGE_LOOT_ITEM": 1
+	}
 }

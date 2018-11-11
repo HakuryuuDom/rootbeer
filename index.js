@@ -13,12 +13,11 @@ const BAMARAMA_BOX = 80086,
 	HATS = [80089, 80090], // Afro, Chef's
 	ITEMS = [ROOT_BEER, ...Object.keys(TRASH).map(id => Number(id))]
 
-const Command = require('command')
-const GameState = require('tera-game-state')
+
 
 module.exports = function RootBeer(dispatch) {
-	const command = Command(dispatch)
-	const game = GameState(dispatch)
+	const command = mod.command
+	const game = mod.game
 
 	let hooks = [],
 		gameId = null,
