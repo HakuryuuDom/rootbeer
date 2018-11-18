@@ -16,8 +16,8 @@ const BAMARAMA_BOX = 80086,
 
 
 module.exports = function RootBeer(dispatch) {
-	const command = mod.command
-	const game = mod.game
+	const command = dispatch.command
+	const game = dispatch.game
 
 	let hooks = [],
 		gameId = null,
