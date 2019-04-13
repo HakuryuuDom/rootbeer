@@ -4,7 +4,7 @@
 			"overwrite": false,
 			"hash": "d78103d3dd6bc89c42a29c0941da8ff112e523e0088ca268deff089102c66c56"
 		},
-		"index.js": "1262289d28b0ce43f7d4f71a3ef6e711384622d08ea8ca2a002496326fa2b31e",
+		"index.js": "5c330cd46889081d65402e4d7add29704bf7e093fa863180ceddf75eeecc4e4a",
 		"module.json": "a5467d7212d54f2077e7f797a642259b5024a5793e51ba0eca4eea3d9391e4bb"
 	},
 	"defs": {
@@ -13,7 +13,7 @@
 		"C_PLAYER_LOCATION": 5,
 		"C_RETURN_TO_LOBBY": "raw",
 		"C_USE_ITEM": 3,
-		"S_INVEN": 16,
+		"S_INVEN": [16,18],
 		"S_SPAWN_ME": 3,
 		"S_SYSTEM_MESSAGE_LOOT_ITEM": 1
 	}
