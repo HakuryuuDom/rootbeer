@@ -10,7 +10,6 @@
 		"C_PLAYER_LOCATION": 5,
 		"C_RETURN_TO_LOBBY": "raw",
 		"C_USE_ITEM": 3,
-		"S_INVEN": 16,
 		"S_SPAWN_ME": 3,
 		"S_SYSTEM_MESSAGE_LOOT_ITEM": 1
 	}
