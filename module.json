@@ -1,5 +1,15 @@
 {
 	"disableAutoUpdate": false,
-	"servers": ["https://raw.githubusercontent.com/HakuryuuDom/rootbeer/master/"],
-	"supportUrl": "https://discord.gg/maqBmJV"
+	"name": "rootbeer",
+	"author": "HakuryuuDom / Pinkie Pie",
+	"description": "Automatically opens Bamarama boxes and discards trash.",
+	"version": "2.0",
+	"options": {
+		"reloadable": true,
+		"niceName": "Rootbeer",
+		"settingsVersion": 1,
+		"settingsFile": "config.json",
+		"settingsMigrator": "setting_migration.js"
+	},
+	"servers": ["https://raw.githubusercontent.com/HakuryuuDom/rootbeer/master/"]
 }
