@@ -58,8 +58,8 @@ module.exports = function Rootbeer(mod) {
 
         findAll(Object.keys(TRASH).map(id => Number(id))).forEach(item => {
             if (mod.settings.autoTrashItems[TRASH[item.id]] && mod.settings.autoTrash) {
-                mod.command.message(`Deleting: ${item.data.name} (id: ${item.id}) x${item.amount}`);
-                deleteItem(item, item.slot);
+                //mod.command.message(`Deleting: ${item.data.name} (id: ${item.id}) x${item.amount}`)
+                deleteItem(item);
             }
         });
         mergeHats();
@@ -82,12 +82,11 @@ module.exports = function Rootbeer(mod) {
         mod.command.message('Auto-Rootbeer stopped.' + (!statTotal ? '' : ` Unboxed ${statRootbeer}/${statTotal} (${(Math.floor(statRootbeer / statTotal * 1000) / 10) || '0'}%).`));
         statTotal = statRootbeer = 0;
     }
-    function deleteItem(item, slot) {
-        if (mod.majorPatchVersion < 85) slot = slot - 40;
+    function deleteItem(item) {
         mod.send('C_DEL_ITEM', (mod.majorPatchVersion >= 85 ? 3 : 2), {
             gameId: mod.game.me.gameId,
             pocket: item.pocket,
-            slot: slot,
+            slot: item.slot,
             amount: item.amount
         });
     }
